@@ -6,6 +6,7 @@ import { RiServiceLine } from "react-icons/ri";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
+
   const handle = (targ) => {
     setActiveNav(targ);
   };
