@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/pic00.png";
+import ME from "../../assets/IMG_20230506_171548.png";
 import HeaderSocials from "./HeaderSocials";
 
 function Header() {
@@ -13,6 +13,7 @@ function Header() {
           <h1>Akash Kumar Gupta</h1>
           <h5 className="text-light">Fullstack Developer</h5>
           <CTA />
+          <HeaderSocials />
           <div className="me">
             <img src={ME} alt="me" />
           </div>
@@ -21,7 +22,6 @@ function Header() {
             Scroll Down
           </a>
         </div>
-        <HeaderSocials />
       </header>
     </>
   );
