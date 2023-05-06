@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/IMG_20230506_211022_adobe_express.png";
+import { FaAward } from "react-icons/fa";
 
 function About() {
   return (
@@ -16,7 +17,9 @@ function About() {
         <div className="about_contents">
           <div className="about_cards">
             <article className="about_card">
+              <FaAward />
               <h5>Experience</h5>
+              <small>1+ Years working</small>
             </article>
           </div>
         </div>
