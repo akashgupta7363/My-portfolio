@@ -1,5 +1,9 @@
 .container.testimonials_container {
   width: 40%;
+  padding-bottom: 3rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
 }
 .client_avatar {
   width: 4rem;
@@ -23,13 +27,13 @@
   width: 80%;
   margin: 0.8rem auto 0;
 }
-@media screen and(max_width:1024px) {
-  .container.testimonials_container {
+@media screen and(max-width:1024px) {
+  .container .testimonials_container {
     width: 60%;
   }
 }
-@media screen and(max_width:600px) {
-  .container.testimonials_container {
+@media screen and(max-width:600px) {
+  .container .testimonials_container {
     width: var(--container-width-ms);
   }
   .client_review {
