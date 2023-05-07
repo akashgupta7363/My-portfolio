@@ -16,49 +16,57 @@ function Portfolio() {
           <div className="portfolio_item-image">
             <img src={img1} alt="port1" />
           </div>
-          <h3> portfolioitem title</h3>
-          <a href="" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <h3> portfolio item title</h3>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={img2} alt="port1" />
           </div>
           <h3> portfolioitem title</h3>
-          <a href="" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={img3} alt="port1" />
           </div>
           <h3> portfolioitem title</h3>
-          <a href="" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={img4} alt="port1" />
           </div>
           <h3> portfolioitem title</h3>
-          <a href="" className="btn" target="_blank">
-            Github
-          </a>
-          <a href="" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="portfolio_item-cta">
+            <a href="" className="btn" target="_blank">
+              Github
+            </a>
+            <a href="" className="btn btn-primary" target="_blank">
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
