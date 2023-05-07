@@ -15,46 +15,46 @@ function Testimonials() {
         <article className="testimonial">
           <div className="client_avatar">
             <img src={av1} alt="avatar" />
-            <h5>Ernest Achiever</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
-              aspernatur cupiditate, sapiente culpa quos aut veritatis
-              voluptatibus vitae dolore ipsam a inventore?
-            </small>
           </div>
+          <h5>Ernest Achiever</h5>
+          <small className="client_review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
+            aspernatur cupiditate, sapiente culpa quos aut veritatis
+            voluptatibus vitae dolore ipsam a inventore?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client_avatar">
             <img src={av2} alt="avatar" />
-            <h5>Ernest Achiever</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
-              aspernatur cupiditate, sapiente culpa quos aut veritatis
-              voluptatibus vitae dolore ipsam a inventore?
-            </small>
           </div>
+          <h5>Ernest Achiever</h5>
+          <small className="client_review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
+            aspernatur cupiditate, sapiente culpa quos aut veritatis
+            voluptatibus vitae dolore ipsam a inventore?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client_avatar">
             <img src={av3} alt="avatar" />
-            <h5>Ernest Achiever</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
-              aspernatur cupiditate, sapiente culpa quos aut veritatis
-              voluptatibus vitae dolore ipsam a inventore?
-            </small>
-          </div>
+          </div>{" "}
+          <h5>Ernest Achiever</h5>
+          <small className="client_review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
+            aspernatur cupiditate, sapiente culpa quos aut veritatis
+            voluptatibus vitae dolore ipsam a inventore?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client_avatar">
             <img src={av4} alt="avatar" />
-            <h5>Ernest Achiever</h5>
-            <small className="client_review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
-              aspernatur cupiditate, sapiente culpa quos aut veritatis
-              voluptatibus vitae dolore ipsam a inventore?
-            </small>
           </div>
+          <h5>Ernest Achiever</h5>
+          <small className="client_review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab
+            aspernatur cupiditate, sapiente culpa quos aut veritatis
+            voluptatibus vitae dolore ipsam a inventore?
+          </small>
         </article>
       </div>
     </section>
