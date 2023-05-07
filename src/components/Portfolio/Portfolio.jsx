@@ -4,6 +4,8 @@ import img1 from "../../assets/portfolio1.jpg";
 import img2 from "../../assets/portfolio2.jpg";
 import img3 from "../../assets/portfolio3.jpg";
 import img4 from "../../assets/portfolio4.jpg";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 function Portfolio() {
   return (
@@ -12,62 +14,70 @@ function Portfolio() {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={img1} alt="port1" />
-          </div>
-          <h3> portfolio item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={img2} alt="port1" />
-          </div>
-          <h3> portfolioitem title</h3>
-          <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={img3} alt="port1" />
-          </div>
-          <h3> portfolioitem title</h3>
-          <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio_item">
-          <div className="portfolio_item-image">
-            <img src={img4} alt="port1" />
-          </div>
-          <h3> portfolioitem title</h3>
-          <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
-              Github
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
+        <Fade duration={3000}>
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={img1} alt="port1" />
+            </div>
+            <h3> portfolio item title</h3>
+            <div className="portfolio_item-cta">
+              <a href="" className="btn" target="_blank">
+                Github
+              </a>
+              <a href="" className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </Fade>
+        <Fade duration={3000}>
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={img2} alt="port1" />
+            </div>
+            <h3> portfolioitem title</h3>
+            <div className="portfolio_item-cta">
+              <a href="" className="btn" target="_blank">
+                Github
+              </a>
+              <a href="" className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </Fade>
+        <Fade duration={3000}>
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={img3} alt="port1" />
+            </div>
+            <h3> portfolioitem title</h3>
+            <div className="portfolio_item-cta">
+              <a href="" className="btn" target="_blank">
+                Github
+              </a>
+              <a href="" className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </Fade>
+        <Fade duration={3000}>
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={img4} alt="port1" />
+            </div>
+            <h3> portfolioitem title</h3>
+            <div className="portfolio_item-cta">
+              <a href="" className="btn" target="_blank">
+                Github
+              </a>
+              <a href="" className="btn btn-primary" target="_blank">
+                Live Demo
+              </a>
+            </div>
+          </article>
+        </Fade>
       </div>
     </section>
   );
