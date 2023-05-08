@@ -3,6 +3,7 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/IMG_20230506_171548.png";
 import HeaderSocials from "./HeaderSocials";
+import emoji from "react-easy-emoji";
 
 function Header() {
   return (
@@ -10,7 +11,9 @@ function Header() {
       <header>
         <div className="container header_container">
           <h5>Hello I'm</h5>
-          <h1>Akash Kumar Gupta</h1>
+          <h1>
+            Akash Kumar Gupta <span className="wave-emoji">{emoji("👋")}</span>
+          </h1>
           <h5 className="text-light">Fullstack Developer</h5>
           <CTA />
           <HeaderSocials />
