@@ -45,6 +45,7 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {

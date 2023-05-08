@@ -16,7 +16,7 @@ function Contact() {
             <h4>Email</h4>
             <h5>akashgupta7363@gmail.com</h5>
             <a href="mailto:akashgupta7363@gmail.com" target="_blank">
-              Write me
+              Write me <i className="bx bx-right-arrow-alt"></i>
             </a>
           </article>
           <article className="contact_option">
@@ -24,7 +24,7 @@ function Contact() {
             <h4>Instagram</h4>
             <h5>ig_akash_gupta_</h5>
             <a href="https://ig.me/m/ig_akash_gupta_" target="_blank">
-              Send a message
+              Write me <i className="bx bx-right-arrow-alt"></i>
             </a>
           </article>
           <article className="contact_option">
@@ -32,7 +32,7 @@ function Contact() {
             <h4>Whatsapp</h4>
             <h5>Akash</h5>
             <a href="https://wa.me/+917363033449" target="_blank">
-              Send a message
+              Write me <i className="bx bx-right-arrow-alt"></i>
             </a>
           </article>
         </div>
@@ -40,10 +40,17 @@ function Contact() {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Enter Your Full Name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Insert Your Email"
+            required
+          />
+
           <textarea
             name="message"
             rows="7"
