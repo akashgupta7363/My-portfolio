@@ -3,8 +3,32 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_9jpcayq",
+        "template_iwknzdu",
+        form.current,
+        "rzsbjhktXduOGrUy1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h5>Reach Out to me!</h5>
@@ -36,7 +60,7 @@ function Contact() {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
