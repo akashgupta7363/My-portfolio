@@ -47,13 +47,13 @@ textarea {
   color: var(--color-white);
 }
 
-@media screen and(max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .container.contact_container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
 }
-@media screen and(max-width:600px) {
+@media screen and (max-width: 600px) {
   .container.contact_container {
     width: var(--container-width-ms);
   }

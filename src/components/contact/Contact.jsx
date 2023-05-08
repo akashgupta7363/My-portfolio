@@ -9,13 +9,15 @@ function Contact() {
     <section id="contact">
       <h5>Reach Out to me!</h5>
       <h2>Contact Me</h2>
-      <div className="container contact_container">
+      <div className="contact_container container">
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>akashgupta7363@gmail.com</h5>
-            <a href="mailto:akashgupta7363@gmail.com">Send a message</a>
+            <a href="mailto:akashgupta7363@gmail.com" target="_blank">
+              Write me
+            </a>
           </article>
           <article className="contact_option">
             <AiOutlineInstagram className="contact_option-icon" />
