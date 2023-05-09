@@ -1,4 +1,4 @@
-import { FaJava, FaReact, FaNodeJs, FaSass } from "react-icons/fa";
+import { FaJava, FaReact, FaSass } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { DiCss3, DiMongodb, DiGitMerge, DiNodejs } from "react-icons/di";
 import {
