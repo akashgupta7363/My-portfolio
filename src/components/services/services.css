@@ -124,3 +124,37 @@
   opacity: 1;
   visibility: visible;
 }
+
+@media screen and (max-width: 950px) {
+  .services_container {
+    grid-template-columns: repeat(3, 218px);
+  }
+}
+@media screen and (max-width: 730px) {
+  .services_container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+  }
+  .services_content {
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  }
+  .services_icon {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .services_modal-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+  .services_modal-description {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .services_container {
+    grid-template-columns: max-content;
+  }
+  .services_content {
+    padding-right: 6rem;
+  }
+}
