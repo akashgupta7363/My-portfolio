@@ -65,3 +65,28 @@
   background-color: #fff;
   transform: translate(6px, -7px);
 }
+@media screen and (max-width: 990px) {
+  .qualification_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .qualification_container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .qualification_sections {
+    grid-template-columns: initial;
+  }
+  .qualification_button {
+    margin: 0 0.75rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .qualification_data {
+    gap: 0.3rem;
+  }
+}

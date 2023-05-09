@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./experience.css";
 
 function Experience() {
+  const [toggleState, settoggleState] = useState(0);
   return (
     <section id="experiences">
       <h5>My Personal Journey</h5>
@@ -9,17 +10,37 @@ function Experience() {
 
       <div className="qualification_container container">
         <div className="qualification_tabs">
-          <div className="qualification_button qualification_active button--flex">
+          <div
+            className={
+              toggleState === 1
+                ? "qualification_button button--flex qualification_active"
+                : "qualification_button button--flex"
+            }
+            onClick={() => settoggleState(1)}
+          >
             <i className="uil uil-graduation-cap qualification_icon"></i>
             Education
           </div>
-          <div className="qualification_button button--flex">
+          <div
+            className={
+              toggleState === 2
+                ? "qualification_button button--flex qualification_active"
+                : "qualification_button button--flex"
+            }
+            onClick={() => settoggleState(2)}
+          >
             <i className="uil uil-briefcase-alt qualification_icon"></i>
             Experience
           </div>
         </div>
         <div className="qualification_sections">
-          <div className="qualification_content qualification_content-active">
+          <div
+            className={
+              toggleState === 1
+                ? "qualification_content qualification_content-active"
+                : "qualification_content"
+            }
+          >
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title"> Web Developmnt</h3>
@@ -86,7 +107,13 @@ function Experience() {
             </div>
           </div>
 
-          <div className="qualification_content">
+          <div
+            className={
+              toggleState === 2
+                ? "qualification_content qualification_content-active"
+                : "qualification_content"
+            }
+          >
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title">Bug Management</h3>
