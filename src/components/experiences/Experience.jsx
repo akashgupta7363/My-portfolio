@@ -27,8 +27,7 @@ function Experience() {
                   SurendraInstitute of Engineering & Management
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2019-present
+                  <i className="uil uil-calendar-alt"></i> 2019-present
                 </div>
               </div>
               <div>
@@ -48,8 +47,7 @@ function Experience() {
                   SurendraInstitute of Engineering & Management
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2017-2018
+                  <i className="uil uil-calendar-alt"></i> 2017-2018
                 </div>
               </div>
             </div>
@@ -61,8 +59,7 @@ function Experience() {
                   SurendraInstitute of Engineering & Management
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2016-2018
+                  <i className="uil uil-calendar-alt"></i> 2016-2018
                 </div>
               </div>
               <div>
@@ -83,8 +80,7 @@ function Experience() {
                   SurendraInstitute of Engineering & Management
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2022-2023
+                  <i className="uil uil-calendar-alt"></i> 2022-2023
                 </div>
               </div>
             </div>
@@ -98,8 +94,7 @@ function Experience() {
                   Exam practice -Remote
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2019-present
+                  <i className="uil uil-calendar-alt"></i> 2019-present
                 </div>
               </div>
               <div>
@@ -117,8 +112,7 @@ function Experience() {
                 <h3 className="Qualification_title">Content Managment</h3>
                 <span className="qualification_subtitle">Exam Practice</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calender-alt"></i>
-                  2022-22
+                  <i className="uil uil-calendar-alt"></i> 2022-22
                 </div>
               </div>
             </div>
