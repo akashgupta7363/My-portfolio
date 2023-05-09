@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 .skills {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -14,4 +15,112 @@
 .icon {
   display: flex;
   justify-content: center;
+}
+.headingskills {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* services */
+
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  justify-content: center;
+  column-gap: 1.8rem;
+}
+.services_content {
+  position: relative;
+  border: 1px solid transparent;
+  background-color: var(--color-bg-variant);
+  padding: 6rem 0 2rem 2.5rem;
+}
+.services_icon {
+  display: block;
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+.services_title {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.services_button {
+  color: var(--color-primary);
+  font-size: small;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  cursor: pointer;
+}
+.services_button-icon {
+  font-size: 1rem;
+  transition: 0.3s;
+}
+.services_button:hover .services_button-icon {
+  transform: translateX(0.25rem);
+}
+.services_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 1;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.services_modal-content {
+  width: 500px;
+  position: relative;
+  background-color: var(--color-bg-variant);
+  border-radius: 1.5rem;
+  padding: 4.5rem 2.5rem 2.5rem;
+}
+.services_modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.services_modal-title,
+.services_modal-description {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.services_modal-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.services_modal-services {
+  row-gap: 0.75rem;
+}
+.services_modal-service {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.services_modal-icon {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+.services_modal-info {
+  font-size: 0.813rem;
+}
+/* Active modal */
+.active-modal {
+  opacity: 1;
+  visibility: visible;
 }
