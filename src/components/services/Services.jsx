@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./services.css";
 import { icons } from "./skillslist";
+import { motion } from "framer-motion";
 
 function Services() {
   const [toggleState, setToggleState] = useState(0);
@@ -21,9 +22,23 @@ function Services() {
       <div className="skills">
         {icons.map((icon, index) => {
           return (
-            <div className="icon" key={index}>
-              {icon}
-            </div>
+            <motion.div
+              className="skills_box"
+              whileHover={{
+                scale: 1.2,
+                textShadow: "0px 0px 8px rgb(255 255 255)",
+                color: "rgb(77, 181, 255)",
+              }}
+              transition={{
+                type: "spring",
+                stiffness: 500,
+              }}
+            >
+              <div className="icon" key={index}>
+                {icon.logo}
+              </div>
+              <div className="skills_title">{icon.name}</div>
+            </motion.div>
           );
         })}
       </div>

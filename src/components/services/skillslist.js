@@ -12,20 +12,65 @@ import {
 import { TbBrandRedux } from "react-icons/tb";
 
 export const icons = [
-  <FaJava size={70} />,
-  <FaHtml5 size={70} />,
-  <DiCss3 size={70} />,
-  <FaSass size={70} />,
-  <SiJavascript size={70} />,
-  <SiTypescript size={70} />,
-  <FaReact size={70} />,
-  <TbBrandRedux size={70} />,
-  <DiNodejs size={90} />,
-  <SiExpress size={70} />,
-  <DiMongodb size={70} />,
-  <SiMysql size={70} />,
+  {
+    logo: <FaJava size={60} />,
+    name: "Java",
+  },
+  {
+    logo: <FaHtml5 size={60} />,
+    name: "HTML",
+  },
+  {
+    logo: <DiCss3 size={60} />,
+    name: "CSS",
+  },
+  {
+    logo: <FaSass size={60} />,
+    name: "SCSS",
+  },
+  {
+    logo: <SiJavascript size={60} />,
+    name: "Javascript",
+  },
+  {
+    logo: <SiTypescript size={60} />,
+    name: "Typescript",
+  },
+  {
+    logo: <FaReact size={60} />,
+    name: "React",
+  },
+  {
+    logo: <TbBrandRedux size={60} />,
+    name: "Redux",
+  },
+  {
+    logo: <DiNodejs size={60} />,
+    name: "Node.js",
+  },
+  {
+    logo: <SiExpress size={60} />,
+    name: "Express.js",
+  },
+  {
+    logo: <DiMongodb size={70} />,
+    name: "MongoDB",
+  },
+  {
+    logo: <SiMysql size={60} />,
+    name: "MySQL",
+  },
 
-  <SiSocketdotio size={70} />,
-  <DiGitMerge size={70} />,
-  <SiFramer size={70} />,
+  {
+    logo: <SiSocketdotio size={60} />,
+    name: "Socket.io",
+  },
+  {
+    logo: <DiGitMerge size={60} />,
+    name: "Git & GitHub",
+  },
+  {
+    logo: <SiFramer size={60} />,
+    name: "Framer",
+  },
 ];

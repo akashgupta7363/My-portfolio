@@ -9,8 +9,20 @@
   row-gap: 4rem;
   @media screen and (max-width: 500px) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
   }
+}
+.skills_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+.skills_title {
+  visibility: hidden;
+}
+.skills_box:hover .skills_title {
+  visibility: visible;
 }
 .icon {
   display: flex;
