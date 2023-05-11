@@ -10,15 +10,18 @@ function Header() {
     <>
       <header>
         <div className="container header_container">
-          <h5>Hello I'm</h5>
-          <h1>
-            Akash Kumar Gupta <span className="wave-emoji">{emoji("👋")}</span>
-          </h1>
-          <h5 className="text-light">Fullstack Developer</h5>
-          <CTA />
-          <HeaderSocials />
-          <div className="me">
+          <div className="me left">
             <img src={ME} alt="me" />
+          </div>
+          <div className="right">
+            <h5>Hello I'm</h5>
+            <h1>
+              Akash Kumar Gupta{" "}
+              <span className="wave-emoji">{emoji("👋")}</span>
+            </h1>
+            <h5 className="text-light">Fullstack Developer</h5>
+            <CTA />
+            <HeaderSocials />
           </div>
 
           <a href="#contact" className="scroll_down">

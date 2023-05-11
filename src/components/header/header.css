@@ -1,5 +1,5 @@
 header {
-  /* height: 100vh; */
+  height: 90vh;
   padding-top: 2rem;
   overflow: hidden;
 }
@@ -7,6 +7,15 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  display: grid;
+  grid-template-columns: 450px 470px;
+}
+.left {
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cta {
@@ -33,17 +42,30 @@ header {
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 23.1rem;
-  height: 28.8rem;
+  width: 20rem;
+  height: 25rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
   /* position: absolute; */
   /* left: calc(50%-13rem); */
   margin-top: 2rem;
-  border-radius: 14rem 14rem 0 0;
+
   overflow: hidden;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
+  animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 80% 90% 40%/50% 60% 40% 70%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
 }
 .scroll_down {
   position: absolute;
@@ -69,7 +91,7 @@ header {
     transform: rotate(-10deg);
   }
   20% {
-    transform: rotate(12deg);
+    transform: rotate(20deg);
   }
   30% {
     transform: rotate(-10deg);
@@ -91,3 +113,56 @@ header {
     display: none;
   }
 }
+@media screen and (max-width: 750px) {
+  .scroll_down {
+    top: 25rem;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .header_container {
+    grid-template-columns: 390px 470px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .header_container {
+    grid-template-columns: 370px 420px;
+  }
+  header {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header_container {
+    grid-template-columns: 325px 280px;
+    column-gap: 2rem;
+  }
+  header {
+    height: 100%;
+  }
+  .left {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  /* .me {
+    width: 16rem;
+    height: 20rem;
+  } */
+  .header_container {
+    grid-template-columns: 1fr;
+    column-gap: 0rem;
+  }
+  header {
+    height: 100%;
+  }
+  .scroll_down {
+    top: 28rem;
+  }
+}
+/* @media screen and (max-width: 518px) {
+  header {
+    height: 100%;
+  }
+} */
