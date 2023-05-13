@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"), url("./assets/Agustina.woff") format("woff");
+  font-display: swap;
+}
+.splash-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+}
+
+.splash-animation-container {
+  height: 50vh;
+}
+
+.splash-title-container {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: gray;
+}
+.splash-title {
+  font-family: "Agustina Regular", cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 20px;
+}

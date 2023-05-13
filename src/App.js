@@ -8,19 +8,37 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Portfolio from "./components/Portfolio/Portfolio";
+import { useEffect, useState } from "react";
+import SplashScreen from "./SplashScreen";
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    // Wait for 3 seconds
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Services />
-      <Experience />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      {isLoading ? (
+        <>
+          {/* <Lottie className="lottie" animationData={spanim} /> */}
+          <SplashScreen />
+        </>
+      ) : (
+        <>
+          <Header />
+          <Nav />
+          <About />
+          <Services />
+          <Experience />
+          <Portfolio />
+          <Testimonials />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </>
   );
 };
