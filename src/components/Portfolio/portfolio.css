@@ -1,4 +1,4 @@
-.portfolio_container {
+/* .portfolio_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
@@ -38,4 +38,45 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+} */
+.containerPortfolio {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project {
+  display: flex;
+  padding: 4px;
+  width: 100%;
+  gap: 3rem;
+  position: relative;
+  margin-bottom: 16px;
+}
+.project_title {
+  text-align: center;
+}
+.video {
+  background-color: beige;
+  width: 50%;
+  height: 18rem;
+  margin-right: 10px;
+}
+p {
+  font-size: 14px;
+
+  margin: 20px 0;
+}
+.videoDesc {
+  width: 40%;
+}
+.techstack {
+  text-align: center;
+  font-weight: 600;
+}
+.live {
+  font-size: 18px;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-around;
 }
