@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("../../assets/Agustina.woff") format("woff");
-  font-display: swap;
-}
 .footer_Sign {
   font-size: 2.5rem;
   text-decoration: none;
