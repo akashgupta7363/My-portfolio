@@ -7,7 +7,7 @@ import {
   SiJavascript,
   SiMysql,
   SiSocketdotio,
-  SiTypescript,
+  SiTailwindcss,
 } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 
@@ -33,8 +33,8 @@ export const icons = [
     name: "Javascript",
   },
   {
-    logo: <SiTypescript size={60} />,
-    name: "Typescript",
+    logo: <SiTailwindcss size={60} />,
+    name: "Tailwind css",
   },
   {
     logo: <FaReact size={60} />,
