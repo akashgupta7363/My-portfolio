@@ -6,9 +6,8 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer_logo">
-        {" "}
-        Akash
+      <a href="#" className="footer_Sign">
+        &lt;<span className="footer_logo">Akash Kumar Gupta </span>&nbsp; /&gt;
       </a>
 
       <ul className="permalinks">
