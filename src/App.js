@@ -17,7 +17,7 @@ const App = () => {
     // Wait for 3 seconds
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 4000);
   }, []);
   return (
     <>
