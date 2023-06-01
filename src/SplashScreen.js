@@ -19,7 +19,12 @@ export default function SplashScreen() {
       </div>
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>
-        <span className="splash-title">Akash kumar Gupta</span>
+        <span
+          className="splash-title"
+          style={{ fontFamily: "Agustina Regular", cursive }}
+        >
+          Akash kumar Gupta
+        </span>
         <span className="grey-color">/&gt;</span>
       </div>
     </div>
