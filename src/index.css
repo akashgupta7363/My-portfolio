@@ -6,6 +6,9 @@
   src: local("Agustina Regular"), url("./assets/Agustina.woff") format("woff");
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -27,17 +30,6 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
-}
-
-html {
-  scroll-behavior: smooth;
-  .splash-title {
-    font-family: "Agustina Regular", cursive;
-    font-weight: bold;
-    font-variant-ligatures: no-common-ligatures;
-    -webkit-font-variant-ligatures: no-common-ligatures;
-    padding: 0 20px;
-  }
 }
 ::-webkit-scrollbar {
   display: none;
