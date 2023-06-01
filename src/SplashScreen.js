@@ -21,7 +21,7 @@ export default function SplashScreen() {
         <span className="grey-color"> &lt;</span>
         <span
           className="splash-title"
-          style={{ fontFamily: "Agustina Regular", cursive }}
+          style={{ fontFamily: "Agustina Regular" }}
         >
           Akash kumar Gupta
         </span>
