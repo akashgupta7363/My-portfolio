@@ -1,3 +1,10 @@
+.splash-title {
+  font-family: "Agustina Regular", cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 20px;
+}
 .splash-container {
   background: white;
   display: flex;
@@ -16,11 +23,4 @@
   text-decoration: none;
   /* color: white; */
   color: gray;
-}
-.splash-title {
-  font-family: "Agustina Regular", cursive;
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 20px;
 }
