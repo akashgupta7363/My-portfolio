@@ -9,6 +9,7 @@ footer {
   font-size: 0.9rem;
   margin-top: 7rem;
 }
+
 footer a {
   color: var(--color-bg);
 }
@@ -56,5 +57,10 @@ footer a {
   }
   .footer_socials {
     margin-bottom: 2.6rem;
+  }
+}
+@media screen and (max-width: 410px) {
+  .footer_none {
+    display: none;
   }
 }

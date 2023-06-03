@@ -7,7 +7,9 @@ function Footer() {
   return (
     <footer>
       <a href="#" className="footer_Sign">
-        &lt;<span className="footer_logo">Akash Kumar Gupta </span>&nbsp; /&gt;
+        <span className="footer_none">&lt;</span>
+        <span className="footer_logo">Akash Kumar Gupta </span>
+        <span className="footer_none">&nbsp; /&gt;</span>
       </a>
 
       <ul className="permalinks">
