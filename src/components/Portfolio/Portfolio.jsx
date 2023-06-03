@@ -87,7 +87,7 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="containerPortfolio">
-        <div className="project">
+        <div className="project pleft">
           <div className="video">
             <Videocast img={ss4} data={vid4} />
           </div>
@@ -122,7 +122,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="project">
+        <div className="project pright">
           <div className="videoDesc">
             <h4 className="project_title">Task Manager</h4>
             <p>
@@ -157,7 +157,7 @@ function Portfolio() {
             <Videocast img={ss2} data={vid2} />
           </div>
         </div>
-        <div className="project">
+        <div className="project pleft">
           <div className="video">
             <Videocast img={ss4} data={vid4} />
           </div>
@@ -192,7 +192,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="project">
+        <div className="project pright">
           <div className="videoDesc">
             <h4 className="project_title">Task Manager</h4>
             <p>
