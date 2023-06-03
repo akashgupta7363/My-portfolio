@@ -1,9 +1,9 @@
 import Videocast from "./Videocast";
 import React from "react";
 import "./portfolio.css";
-import vid4 from "../../assets/videos/noteziper.webm";
+import vid4 from "../../assets/videos/notezip.mp4";
 import ss2 from "../../assets/videos/ss2.png";
-import vid2 from "../../assets/videos/social-chit-chat.webm";
+import vid2 from "../../assets/videos/social.mp4";
 
 import { BsGithub } from "react-icons/bs";
 import ss4 from "../../assets/videos/ss4.png";
