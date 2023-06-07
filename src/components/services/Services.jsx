@@ -76,7 +76,7 @@ function Services() {
                 ></i>
                 <h3 className="services_modal-title"> Front-end Development</h3>
                 <p className="services_modal-description">
-                  Services with more than 3 years of experience. Providing
+                  Services with more than 1 years of experience. Providing
                   quality work to clients and companies.
                 </p>
                 <ul className="services_modal-services grid">
@@ -138,14 +138,14 @@ function Services() {
                 ></i>
                 <h3 className="services_modal-title">Full Stack Development</h3>
                 <p className="services_modal-description">
-                  Services with more than 3 years of experience. Providing
+                  Services with more than 1 years of experience. Providing
                   quality work to clients and companies.
                 </p>
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I develop the user interface.
+                      Develop and maintain web services and interfaces.
                     </p>
                   </li>
                   <li className="services_modal-service">
@@ -155,19 +155,20 @@ function Services() {
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I create ux element interactions.
+                      Contribute to front-end and back-end development
+                      processes.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I position your company brand.
+                      Build new product features or APIs.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      Design and mockups of product for companies.
+                      Delivering the highest quality product to my clients.
                     </p>
                   </li>
                 </ul>
@@ -200,36 +201,36 @@ function Services() {
                 ></i>
                 <h3 className="services_modal-title">Back-end Development</h3>
                 <p className="services_modal-description">
-                  Services with more than 3 years of experience. Providing
+                  Services with more than 1 years of experience. Providing
                   quality work to clients and companies.
                 </p>
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I develop the user interface.
-                    </p>
-                  </li>
-                  <li className="services_modal-service">
-                    <i className="uil uil-check-circle services_modal-icon"></i>
-                    <p className="services_modal-info">Web Page development.</p>
-                  </li>
-                  <li className="services_modal-service">
-                    <i className="uil uil-check-circle services_modal-icon"></i>
-                    <p className="services_modal-info">
-                      I create ux element interactions.
+                      I develop the server-side.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      I position your company brand.
+                      API Development and Integration
+                    </p>
+                  </li>
+                  <li className="services_modal-service">
+                    <i className="uil uil-check-circle services_modal-icon"></i>
+                    <p className="services_modal-info">Backend Refactoring</p>
+                  </li>
+                  <li className="services_modal-service">
+                    <i className="uil uil-check-circle services_modal-icon"></i>
+                    <p className="services_modal-info">
+                      Databases, data and application integration.
                     </p>
                   </li>
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services_modal-icon"></i>
                     <p className="services_modal-info">
-                      Design and mockups of product for companies.
+                      Creating, maintaining, testing, and debugging
                     </p>
                   </li>
                 </ul>

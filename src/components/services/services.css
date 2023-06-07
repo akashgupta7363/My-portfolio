@@ -94,10 +94,11 @@
 }
 .services_modal-content {
   width: 500px;
+
   position: relative;
   background-color: var(--color-bg-variant);
   border-radius: 1.5rem;
-  padding: 4.5rem 2.5rem 2.5rem;
+  padding: 2.5rem 2.5rem 2.5rem;
 }
 .services_modal-close {
   position: absolute;
@@ -130,6 +131,10 @@
 }
 .services_modal-info {
   font-size: 0.813rem;
+  margin: 10px 0;
+}
+p {
+  margin: 10px 0;
 }
 /* Active modal */
 .active-modal {
