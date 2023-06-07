@@ -56,6 +56,7 @@ header {
 }
 .right {
   display: flex;
+  margin-top: -4rem;
   flex-direction: column;
   justify-content: center;
 }
@@ -160,7 +161,7 @@ header {
   }
 }
 
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 700px) {
   .header_container {
     grid-template-columns: 1fr;
     column-gap: 0rem;
@@ -170,6 +171,9 @@ header {
   }
   .scroll_down {
     top: 28rem;
+  }
+  .right {
+    margin-top: 1.2rem;
   }
 }
 @media screen and (max-width: 375px) {

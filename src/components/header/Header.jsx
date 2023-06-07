@@ -19,7 +19,7 @@ function Header() {
               Akash Kumar Gupta{" "}
               <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
-            <h5 className="text-light">Fullstack Developer</h5>
+            <h5 className="text-light">A Full-Stack Developer</h5>
             <CTA />
             <HeaderSocials />
           </div>
