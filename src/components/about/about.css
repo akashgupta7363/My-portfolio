@@ -45,8 +45,11 @@
   font-size: 1rem;
 }
 .about_content p {
-  margin: 2rem 0 2.6rem;
-  color: var(--color-ligh);
+  margin: 1rem 0 1rem;
+  color: var(--color-light);
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
 }
 @media screen and (max-width: 1024px) {
   .about_container {

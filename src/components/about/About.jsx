@@ -42,15 +42,13 @@ function About() {
               </article>
             </div>
             <p className="para">
-              I don’t like to define myself by the work I’ve done. I define
-              myself by the work I want to do. Skills can be taught, personality
-              is inherent. I’m a fast learner, able to pick up new skills and
-              juggle different projects and roles with relative ease. I prefer
-              to keep learning, continue challenging myself, and do interesting
-              things that matter.
-              <br />I work to make a better web; one that is fast, easy to use,
+              I work to make a better web; one that is fast, easy to use,
               beautiful, accessible to all, and frustration-free. In my spare
-              time I enjoy DIY, gaming and building my own projects.
+              time I enjoy building my own projects. <br /> I don’t like to
+              define myself by the work I’ve done. I define myself by the work I
+              want to do. Skills can be taught, personality is inherent. I’m a
+              fast learner, able to pick up new skills and juggle different
+              projects and roles with relative ease.
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

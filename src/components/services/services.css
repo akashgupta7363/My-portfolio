@@ -47,6 +47,7 @@
 .services_content {
   position: relative;
   border: 1px solid transparent;
+  border-radius: 5px;
   background-color: var(--color-bg-variant);
   padding: 6rem 0 2rem 2.5rem;
 }
