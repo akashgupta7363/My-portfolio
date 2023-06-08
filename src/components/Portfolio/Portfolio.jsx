@@ -19,6 +19,10 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="containerPortfolio">
+        <h3 className="heading">
+          ⚡I design, develop and code beautifully simple things, and I love
+          what I do.⚡
+        </h3>
         <div className="project pleft">
           <div className="video">
             <Videocast img={ss1} data={vid1} />
@@ -26,10 +30,14 @@ function Portfolio() {
           <div className="videoDesc">
             <h4 className="project_title">E-Wish-Mart</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              laudantium eius voluptatem eos officia. Magni, incidunt?
-              Voluptatum dolores iste odit qui expedita eveniet laboriosam atque
-              dolorem libero, corrupti, consequuntur provident!
+              Developing a fully functional multi-vendor eCommerce website,
+              integrating payment gateways such as PayPal.
+              <br /> Creating an intuitive vendor dashboard, empowering sellers
+              to manage their inventory, and track sales. <br />
+              Chat system where buyers and sellers can communicate effectively,
+              and search and filtering functionality, Product Catalog, Shopping
+              Cart and Checkout, Order Processing and Inventory Management, User
+              Management
             </p>
             <div className="techstack">
               MERN stack, Tailwind css, Redux, socket.io
@@ -57,10 +65,12 @@ function Portfolio() {
           <div className="videoDesc">
             <h4 className="project_title">Social-Chit-Chat</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              laudantium eius voluptatem eos officia. Magni, incidunt?
-              Voluptatum dolores iste odit qui expedita eveniet laboriosam atque
-              dolorem libero, corrupti, consequuntur provident!
+              Developed a real-time chat web application using Utilized
+              Socket.IO to establish a real-time, bidirectional communication
+              channel, enabling instant messaging and updating of chat rooms.
+              User Authentication and Management, Profile setup, Creating Group,
+              editing members list anytime by admin Typing indicator in the
+              chatbox, real-time notifications from the sender.
             </p>
             <div className="techstack">MERN stack, socket.io</div>
             <div className="live">
@@ -92,10 +102,12 @@ function Portfolio() {
           <div className="videoDesc">
             <h4 className="project_title">Tutor's Den</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              laudantium eius voluptatem eos officia. Magni, incidunt?
-              Voluptatum dolores iste odit qui expedita eveniet laboriosam atque
-              dolorem libero, corrupti, consequuntur provident!
+              Developed a web app for Tutor and student management module to
+              smoothen the education experience for the students. Three
+              entities- admin, faculty, and students. Admin has facilities like
+              assigning faculty, adding students, and pushing notice. Faculties
+              can keep track of students' attendance and can create tests and
+              upload marks. Students can view all of this anytime.
             </p>
             <div className="techstack">MERN stack, Tailwind CSS, Redux</div>
             <div className="live">
@@ -121,12 +133,14 @@ function Portfolio() {
           <div className="videoDesc">
             <h4 className="project_title">Notes Ziper</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              laudantium eius voluptatem eos officia. Magni, incidunt?
-              Voluptatum dolores iste odit qui expedita eveniet laboriosam atque
-              dolorem libero, corrupti, consequuntur provident!
+              Developed a website where anyone can log in and keep their notes
+              in one place safely. Login, User authentication, profile set-up.
+              Users can add, edit, update, and delete the notes anytime.
+              <br /> Users can categorize their notes by applying tags and
+              labels, making it easier to locate specific information and create
+              a structured organization system.
             </p>
-            <div className="techstack">MERN stack</div>
+            <div className="techstack">MERN stack Redux</div>
             <div className="live">
               <div>
                 <a
