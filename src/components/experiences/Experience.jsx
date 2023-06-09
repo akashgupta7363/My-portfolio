@@ -44,11 +44,9 @@ function Experience() {
             <div className="qualification_data">
               <div>
                 <h3 className="qualification_title"> Web Developmnt</h3>
-                <span className="qualification_subtitle">
-                  SurendraInstitute of Engineering & Management
-                </span>
+                <span className="qualification_subtitle">freecodecamp</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2019-present
+                  <i className="uil uil-calendar-alt"></i> 2022-23
                 </div>
               </div>
               <div>
@@ -63,26 +61,29 @@ function Experience() {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="Qualification_title"> Art Director</h3>
+                <h3 className="Qualification_title"> B.Tech in CSE</h3>
                 <span className="qualification_subtitle">
-                  SurendraInstitute of Engineering & Management
+                  Surendra Institute of Engineering & Management
+                  <br /> CGPA: 8.0
+                </span>
+                <div className="qualification_calender">
+                  <i className="uil uil-calendar-alt"></i> 2019-2023
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification_data">
+              <div>
+                <h3 className="qualification_title"> XIIth</h3>
+                <span className="qualification_subtitle">
+                  Air Force School
+                  <br />
+                  82.8%
                 </span>
                 <div className="qualification_calender">
                   <i className="uil uil-calendar-alt"></i> 2017-2018
                 </div>
               </div>
-            </div>
-
-            <div className="qualification_data">
-              <div>
-                <h3 className="qualification_title"> Backend</h3>
-                <span className="qualification_subtitle">
-                  SurendraInstitute of Engineering & Management
-                </span>
-                <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2016-2018
-                </div>
-              </div>
               <div>
                 <span className="qualification_rounder"></span>
                 <span className="qualification_line"></span>
@@ -96,12 +97,14 @@ function Experience() {
                 <span className="qualification_line"></span>
               </div>
               <div>
-                <h3 className="Qualification_title"> Framer Motion</h3>
+                <h3 className="Qualification_title">Xth</h3>
                 <span className="qualification_subtitle">
-                  SurendraInstitute of Engineering & Management
+                  West Point School
+                  <br />
+                  86.8%
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2022-2023
+                  <i className="uil uil-calendar-alt"></i> 2015-2016
                 </div>
               </div>
             </div>
@@ -121,7 +124,7 @@ function Experience() {
                   Exam practice -Remote
                 </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2019-present
+                  <i className="uil uil-calendar-alt"></i> Apr '22 - Jun'22
                 </div>
               </div>
               <div>
@@ -137,9 +140,11 @@ function Experience() {
               </div>
               <div>
                 <h3 className="Qualification_title">Content Managment</h3>
-                <span className="qualification_subtitle">Exam Practice</span>
+                <span className="qualification_subtitle">
+                  Exam Practice - Remote
+                </span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt"></i> 2022-22
+                  <i className="uil uil-calendar-alt"></i> Apr '22 - Jun'22
                 </div>
               </div>
             </div>

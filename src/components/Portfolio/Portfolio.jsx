@@ -140,7 +140,7 @@ function Portfolio() {
               labels, making it easier to locate specific information and create
               a structured organization system.
             </p>
-            <div className="techstack">MERN stack Redux</div>
+            <div className="techstack">MERN stack, Redux</div>
             <div className="live">
               <div>
                 <a
