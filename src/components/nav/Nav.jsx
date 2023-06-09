@@ -26,13 +26,7 @@ function Nav() {
       >
         <AiOutlineUser />
       </a>
-      <a
-        href="#experiences"
-        onClick={() => handle("#experiences")}
-        className={activeNav === "#experiences" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
+
       <a
         href="#services"
         onClick={() => handle("services")}
@@ -46,6 +40,13 @@ function Nav() {
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <AiOutlineProject />
+      </a>
+      <a
+        href="#experiences"
+        onClick={() => handle("#experiences")}
+        className={activeNav === "#experiences" ? "active" : ""}
+      >
+        <BiBook />
       </a>
       <a
         href="#contact"
