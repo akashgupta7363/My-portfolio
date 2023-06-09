@@ -15,28 +15,28 @@ import { Pagination } from "swiper";
 function Testimonials() {
   const data = [
     {
+      avatar: av2,
+      name: "Rohit Rai",
+      review:
+        "Working with Akash was a game-changer for our team. His professionalism, attention to detail, and ability to translate our vision into reality surpassed our expectations. We highly recommend his services.",
+    },
+    {
       avatar: av1,
       name: "Tina Snow",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam delectus vel voluptas autem adipisci explicabo nulla voluptatem rerum officia beatae cumque corporis ea expedita, laudantium dolor aliquid fugiat id consectetur, amet quibusdam nihil?",
-    },
-    {
-      avatar: av2,
-      name: "Luke Skywalker",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam delectus vel voluptas autem adipisci explicabo nulla voluptatem rerum officia beatae cumque corporis ea expedita, laudantium dolor aliquid fugiat id consectetur, amet quibusdam nihil?",
+        "Akash understood our requirements and delivered a visually appealing and user-friendly website that perfectly captured our brand identity. He implemented responsive design, optimized site performance, and integrated e-commerce functionalities.",
     },
     {
       avatar: av3,
       name: "Alex lawson",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam delectus vel voluptas autem adipisci explicabo nulla voluptatem rerum officia beatae cumque corporis ea expedita, laudantium dolor aliquid fugiat id consectetur, amet quibusdam nihil?",
+        "Akash is a talented web developer who possesses a deep understanding of both design principles and coding languages. They created a sleek and user-friendly website for our startup, incorporating innovative features and seamless navigation. We are thrilled with the results and look forward to working with Akash on future projects.",
     },
     {
       avatar: av4,
-      name: "Robert Frost",
+      name: "Fatima Mallick",
       review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam delectus vel voluptas autem adipisci explicabo nulla voluptatem rerum officia beatae cumque corporis ea expedita, laudantium dolor aliquid fugiat id consectetur, amet quibusdam nihil?",
+        "We approached Akash for assistance with our e-commerce website, and we couldn't be happier with the outcome. Their technical expertise and knowledge of online sales strategies helped us optimize our website for conversions. Thanks to Akash, our online sales have skyrocketed, and our customers are delighted with the improved user experience.",
     },
   ];
   return (
