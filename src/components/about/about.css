@@ -54,6 +54,7 @@
 @media screen and (max-width: 1024px) {
   .about_container {
     grid-template-columns: 1fr;
+    height: auto;
   }
   .about_me {
     width: 50%;
