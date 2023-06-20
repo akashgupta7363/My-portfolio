@@ -1,5 +1,5 @@
-import React from "react";
-import CV from "../../assets/Akash_Kr_Gupta_resume.pdf";
+import React from 'react';
+import CV from '../../assets/Akash_Kr_Gupta_resume.pdf';
 
 function CTA() {
   return (

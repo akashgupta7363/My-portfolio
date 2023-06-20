@@ -1,12 +1,12 @@
-import React from "react";
-import "./about.css";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import './about.css';
+import Fade from 'react-reveal/Fade';
 
-import codingperson from "../../assets/codingPerson.json";
-import { FaAward } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
-import { BiSupport } from "react-icons/bi";
-import Lottie from "lottie-react";
+import codingperson from '../../assets/codingPerson.json';
+import { FaAward } from 'react-icons/fa';
+import { VscFolderLibrary } from 'react-icons/vsc';
+import { BiSupport } from 'react-icons/bi';
+import Lottie from 'lottie-react';
 
 function About() {
   return (
